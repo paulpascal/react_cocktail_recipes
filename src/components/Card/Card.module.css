@@ -1,0 +1,84 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: black;
+  text-decoration: none;
+  max-width: var(--card-width);
+}
+
+.card:hover {
+  border: 1px solid black;
+}
+
+.cardTitle {
+  text-align: center;
+  font-family: "Courgette";
+  width: 75%;
+  margin: 5px;
+}
+
+.cardImgOuter {
+  position: relative;
+  margin-bottom: -4px;
+}
+
+.cardImg {
+  width: var(--card-width);
+  border-radius: 10px;
+}
+
+.cardFav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  filter: drop-shadow(0 0 0.75rem gold);
+  -webkit-filter: drop-shadow(0 0 7px gold);
+  transition: 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cardFav:hover {
+  transform: scale(1.2);
+}
+
+.cardNotFav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  filter: drop-shadow(0 0 0.75rem black);
+  -webkit-filter: drop-shadow(0 0 7px black);
+  transition: 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cardNotFav:hover {
+  filter: drop-shadow(0 0 0.75rem gold);
+  -webkit-filter: drop-shadow(0 0 7px gold);
+  transform: scale(1.2);
+}
+
+.navlink {
+  color: black;
+  text-decoration: none;
+}
+
+@media all and (max-width: 460px) {
+  .card {
+    width: 90%;
+    max-width: 460px;
+    padding-bottom: 15px;
+  }
+
+  .card:hover {
+    border: 1px solid black;
+  }
+  .cardImg {
+    max-width: 250px;
+  }
+}

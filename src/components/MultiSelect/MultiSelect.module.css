@@ -1,0 +1,21 @@
+.filter {
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.option input {
+  justify-self: start;
+}
+
+.option label {
+  flex: 1;
+}

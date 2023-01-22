@@ -1,0 +1,48 @@
+:root {
+  --base-height: 45px;
+  --base-search-width: 95%;
+}
+
+.outer {
+  position: relative;
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  max-width: 480px;
+  margin: auto;
+}
+
+.mainSearchForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.searchInput {
+  text-align: center;
+  font-size: 1.5em;
+  width: var(--base-search-width);
+  height: var(--base-height);
+}
+
+.searchBtn {
+  border: none;
+  background-color: transparent;
+  background-image: url("../../images/search.png");
+  background-repeat: no-repeat;
+  align-self: flex-start;
+  width: var(--base-height);
+  height: var(--base-height);
+  background-size: contain;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+}

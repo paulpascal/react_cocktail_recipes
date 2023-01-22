@@ -1,0 +1,50 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+  height: 56px;
+  margin: 20px;
+  width: 360px;
+  max-width: 480px;
+  color: #444;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 8px 15px 3px rgba(9, 30, 66, 0.2);
+}
+
+.outer:hover {
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  background: #00d301;
+  background: -webkit-linear-gradient(-196deg, #00d301, #36c275 50%, #00a562);
+  background: -webkit-linear-gradient(164deg, #00d301, #36c275 50%, #00a562);
+  background: linear-gradient(286deg, #00d301, #36c275 50%, #00a562);
+  transition: background, color 0.1s ease-in-out;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  width: 100%;
+  margin: 15px;
+}
+
+.date {
+  flex: 0 1;
+  font-size: 14px;
+}
+
+.search {
+  flex: 1 0;
+  text-align: center;
+  font-style: italic;
+}

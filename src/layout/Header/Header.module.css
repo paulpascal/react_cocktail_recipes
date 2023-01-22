@@ -1,0 +1,9 @@
+.outer {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 0;
+  background-color: black;
+  width: 100vw;
+  height: 12%;
+  min-height: 100px;
+}

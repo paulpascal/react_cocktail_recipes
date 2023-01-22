@@ -1,0 +1,12 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inner {
+  width: 70%;
+  max-width: 480px;
+  margin-bottom: 15px;
+}

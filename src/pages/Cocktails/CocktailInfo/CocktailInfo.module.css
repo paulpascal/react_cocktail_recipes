@@ -1,0 +1,27 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 480px;
+  margin: auto;
+}
+
+.drinkImg {
+  border-radius: 7px;
+  max-width: 360px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Courgette";
+}
+
+.iList {
+  padding: 0;
+}
+
+h3,
+ul {
+  margin-bottom: 0;
+}

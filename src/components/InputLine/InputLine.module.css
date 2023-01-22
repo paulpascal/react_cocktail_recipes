@@ -1,0 +1,67 @@
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  color: black;
+  box-sizing: border-box;
+  font-family: "Arvo";
+  font-size: 18px;
+  height: 32px;
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  color: black;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+.input:focus + .underline {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  transform-origin: 0 100%;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  background-color: dodgerblue;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 2px;
+}
+
+.input[invalid="true"] + .underline {
+  background-color: red;
+  transform: scaleX(1);
+}
+
+.input:disabled {
+  color: #ccc;
+  border-bottom: 1px solid green;
+}

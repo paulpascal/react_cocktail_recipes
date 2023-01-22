@@ -1,0 +1,25 @@
+/* Palette URL: http://paletton.com/#uid=12B0u0kllllBKG3394t45aw1Bll */
+:root {
+  --color-primary-1: #5e9732;
+  --color-primary-2: #67ec00;
+  --color-primary-3: #1e1f1c;
+  --color-primary-4: #454a41;
+  --color-primary-5: #93978f;
+  --color-dark: #1e1f1c;
+  --card-width: 175px;
+  --sidebar-width: 250px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  height: 100vh;
+}

@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "import/no-cycle": "off",
+    "prettier/prettier": ["off", { "singleQuote": true }],
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off"
+  }
+}

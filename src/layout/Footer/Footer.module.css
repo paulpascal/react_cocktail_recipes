@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  color: whitesmoke;
+  background-color: var(--color-dark);
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footerContent a {
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+}

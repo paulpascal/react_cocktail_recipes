@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+  font-size: 16px;
+}
+
+.split {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.errMsg {
+  font-size: 14px;
+  color: red;
+}
